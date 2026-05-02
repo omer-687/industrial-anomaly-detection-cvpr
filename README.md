@@ -1,10 +1,10 @@
-# 🔍 Industrial Anomaly Detection — SimpleNet (CVPR 2023) Replication
+#  Industrial Anomaly Detection — SimpleNet (CVPR 2023) Replication
 
 > Replication of **SimpleNet: A Simple Network for Image Anomaly Detection and Localization** (CVPR 2023) for unsupervised industrial defect detection on the MVTec AD dataset.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project replicates the SimpleNet architecture from CVPR 2023 for **unsupervised anomaly detection** in industrial quality inspection settings. The model is trained only on normal (defect-free) images and learns to detect and localise anomalies at both the image level and pixel level — without any labelled defect data.
 
@@ -12,7 +12,7 @@ Applied to the **bottle class** of the MVTec Anomaly Detection dataset.
 
 ---
 
-## 🏆 Results
+##  Results
 
 | Metric | Score |
 |--------|-------|
@@ -24,7 +24,7 @@ Applied to the **bottle class** of the MVTec Anomaly Detection dataset.
 
 ---
 
-## 📊 Visualisations
+##  Visualisations
 
 ### Anomaly Heatmap
 The model generates pixel-level anomaly scores overlaid on the original image. Red regions indicate high anomaly scores — in this case correctly highlighting a foreign object inside the bottle.
@@ -55,7 +55,7 @@ Normal samples cluster near zero while anomalous samples score significantly hig
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 SimpleNet works by:
 
@@ -68,7 +68,7 @@ The key insight of SimpleNet is that by adding small Gaussian noise to normal fe
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 simplenet-anomaly-detection/
@@ -94,7 +94,7 @@ simplenet-anomaly-detection/
 
 ---
 
-## ⚙️ Setup & Usage
+##  Setup & Usage
 
 ### 1. Install Dependencies
 
@@ -134,7 +134,7 @@ run_evaluations.bat
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 See `requirements.txt` for full list. Key libraries:
 
@@ -148,7 +148,7 @@ See `requirements.txt` for full list. Key libraries:
 
 ---
 
-## 📄 Original Paper
+##  Original Paper
 
 > **SimpleNet: A Simple Network for Image Anomaly Detection and Localization**
 > Zhikang Liu, Yiming Zhou, Yuansheng Xu, Zilei Wang
@@ -157,14 +157,8 @@ See `requirements.txt` for full list. Key libraries:
 
 ---
 
-## 👤 Author
 
-**Omer Farooq**
-BS Artificial Intelligence — Information Technology University (ITU), Lahore
-[GitHub](https://github.com/omer-687)
 
----
+## Note
 
-## 📝 Note
-
-This project is an academic replication of the SimpleNet paper completed as part of coursework at ITU Lahore. The goal was to understand, implement, and validate the paper's methodology on the MVTec AD benchmark.
+This project is an academic replication of the SimpleNet paper, conducted as an experiment to explore how deep learning can be applied in real-world scenarios, while building practical understanding through implementing and evaluating its methodology on the MVTec AD benchmark.

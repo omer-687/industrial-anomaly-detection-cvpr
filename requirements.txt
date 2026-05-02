@@ -1,0 +1,15 @@
+torch>=2.2.0
+torchvision>=0.17.0
+numpy>=1.24.0
+opencv-python>=4.8.0
+click
+tqdm
+tensorboard
+timm
+scikit-learn
+Pillow
+scipy
+matplotlib
+pandas
+scikit-image
+

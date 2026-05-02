@@ -29,7 +29,7 @@ Applied to the **bottle class** of the MVTec Anomaly Detection dataset.
 ### Anomaly Heatmap
 The model generates pixel-level anomaly scores overlaid on the original image. Red regions indicate high anomaly scores — in this case correctly highlighting a foreign object inside the bottle.
 
-![Anomaly Heatmap](results/example_anomaly.png)
+![Anomaly Heatmap](example_anomaly.png)
 
 ---
 

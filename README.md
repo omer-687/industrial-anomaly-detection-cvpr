@@ -34,24 +34,24 @@ The model generates pixel-level anomaly scores overlaid on the original image. R
 ---
 
 ### Image-wise ROC Curve
-![Image ROC Curve](results/image_roc_curve.png)
+![Image ROC Curve](image_roc_curve.png)
 
 ---
 
 ### Pixel-wise ROC Curve
-![Pixel ROC Curve](results/pixel_roc_curve.png)
+![Pixel ROC Curve](pixel_roc_curve.png)
 
 ---
 
 ### Mean Anomaly Heatmap (across all anomalous samples)
-![Mean Anomaly Heatmap](results/mean_anomaly_heatmap.png)
+![Mean Anomaly Heatmap](mean_anomaly_heatmap.png)
 
 ---
 
 ### Anomaly Score Distribution
 Normal samples cluster near zero while anomalous samples score significantly higher — showing clear separability.
 
-![Score Distribution](results/score_histogram.png)
+![Score Distribution](score_histogram.png)
 
 ---
 
@@ -88,8 +88,7 @@ simplenet-anomaly-detection/
 ├── run_evaluations.bat   # Evaluation script (Windows)
 │
 ├── requirements.txt      # Dependencies
-│
-└── results/              # Output visualisations and metrics
+
     
 ```
 
